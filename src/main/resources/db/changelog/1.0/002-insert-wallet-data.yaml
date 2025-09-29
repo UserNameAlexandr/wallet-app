@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-wallet-data
+      author: Alexandr Rozum
+      changes:
+        - insert:
+            tableName: wallets
+            columns:
+              - column:
+                  name: id
+                  value: 59c9b8e8-b582-4224-a8a3-ef098dd9118c
+              - column:
+                  name: balance
+                  value: 0.00
